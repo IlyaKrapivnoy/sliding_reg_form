@@ -74,8 +74,14 @@ a {
     margin: 0 5px;
     height: 40px;
     width: 40px;
+    transition: background-color .2s ease;
+    transition: color .2s ease;
 }
 
+.social-container a:hover {
+    background-color: #ff4b2b;
+    color: #fff;
+}
 
 .form-container input {
     background: #eee;
